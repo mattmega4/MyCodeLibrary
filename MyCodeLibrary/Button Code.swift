@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+
+
+
+
+// MARK: Set Button Image
+
+//button.setImage(UIImage.init(named: "nameHere.png"), for: UIControlState())
