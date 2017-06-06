@@ -18,8 +18,8 @@ import Foundation
 //        // Do stuff with x
 //        x.description
 //    }
-//    
-//    // Value requirements not met, do something
+
+    // Value requirements not met, do something
 //}
 
 
@@ -31,7 +31,7 @@ import Foundation
 //        // Value requirements not met, do something
 //        return
 //    }
-//    
+//
 //    // Do stuff with x
 //    x.description
 //}
@@ -44,10 +44,10 @@ import Foundation
 //        // Value requirements not met, do something
 //        return
 //    }
-//    
+//
 //    // Do stuff with x
 //}
-//
+
 //func fooNonOptionalBad(x: Int) {
 //    if x <= 0 {
 //        // Value requirements not met, do something
@@ -56,3 +56,4 @@ import Foundation
 //    
 //    // Do stuff with x
 //}
+

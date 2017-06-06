@@ -17,10 +17,10 @@ import Foundation
 // tap.cancelsTouchesInView = false
 //NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name:NSNotification.Name.UIKeyboardWillShow, object: nil)
 //NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name:NSNotification.Name.UIKeyboardWillHide, object: nil)
-
-
-
-
+//
+//
+//
+//
 //func keyboardWillShow(notification:NSNotification) {
 //  var userInfo = notification.userInfo!
 //  var keyboardFrame:CGRect = (userInfo[UIKeyboardFrameBeginUserInfoKey] as! NSValue).cgRectValue
@@ -30,26 +30,26 @@ import Foundation
 //  self.scrollView.contentInset = contentInset
 //  // Hide and disable Any Buttons Or Objects I might tap on when trying to dismiss keyboard
 //}
-
-
+//
+//
 //func keyboardWillHide(notification:NSNotification) {
 //  let contentInset:UIEdgeInsets = UIEdgeInsets.zero
 //  self.scrollView.contentInset = contentInset
 //  // Un Hide and Re enable those objects
 //}
-
+//
 //
 //func dismissKeyboard() {
 //  view.endEditing(true)
 //}
-
-
+//
+//
 //func textFieldShouldClear(_ textField: UITextField) -> Bool {
 //  self.view.endEditing(true)
 //  return true
 //}
-
-
+//
+//
 //func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 //  self.view.endEditing(true)
 //  textField.resignFirstResponder()
@@ -65,3 +65,4 @@ import Foundation
 // MARK: Turn Off AutoCorrect
 
 //TextField.autocorrectionType = .no
+
