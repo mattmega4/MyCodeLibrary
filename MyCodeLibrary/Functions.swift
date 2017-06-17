@@ -14,9 +14,9 @@ import UIKit
 
 // Example:
 
-//func drawHorizontalLine(from startX: Double, to endX: Double, using color: UIColor) {
-//  //
-//}
+func drawHorizontalLine(from startX: Double, to endX: Double, using color: UIColor) {
+  //
+}
 
 // 'from, to, using' are external
 // 'startX, endX, color' are internal
@@ -26,4 +26,4 @@ import UIKit
 
 // Usage
 
-//let temp = drawHorizontalLine(from: 5.0, to: 8.5, using: .blue)
+let temp = drawHorizontalLine(from: 5.0, to: 8.5, using: .blue)

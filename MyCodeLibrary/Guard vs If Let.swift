@@ -12,48 +12,49 @@ import Foundation
 
 // MARK: If Let 
 
+// where is , now?
 
-//func fooBinding(x: Int?) {
-//    if let x = x where x > 0 {
-//        // Do stuff with x
-//        x.description
-//    }
+func fooBinding(x: Int?) {
+    if let x = x, x > 0 {
+        // Do stuff with x
+        x.description
+    }
 
-    // Value requirements not met, do something
-//}
+//     Value requirements not met, do something
+}
 
 
 // MARK: Guard
 
 
-//func fooGuard(x: Int?) {
-//    guard let x = x where x > 0 else {
-//        // Value requirements not met, do something
-//        return
-//    }
-//
-//    // Do stuff with x
-//    x.description
-//}
+func fooGuard(x: Int?) {
+    guard let x = x, x > 0 else {
+        // Value requirements not met, do something
+        return
+    }
+
+    // Do stuff with x
+    x.description
+}
 
 
 // MARK: Guard vs If Let without Optionals
 
-//func fooNonOptionalGood(x: Int) {
-//    guard x > 0 else {
-//        // Value requirements not met, do something
-//        return
-//    }
-//
-//    // Do stuff with x
-//}
+func fooNonOptionalGood(x: Int) {
+    guard x > 0 else {
+        // Value requirements not met, do something
+        return
+    }
 
-//func fooNonOptionalBad(x: Int) {
-//    if x <= 0 {
-//        // Value requirements not met, do something
-//        return
-//    }
-//    
-//    // Do stuff with x
-//}
+    // Do stuff with x
+}
+
+func fooNonOptionalBad(x: Int) {
+    if x <= 0 {
+        // Value requirements not met, do something
+        return
+    }
+    
+    // Do stuff with x
+}
 
