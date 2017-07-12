@@ -18,9 +18,12 @@
 		1DDC168B1E519E6A005A39AC /* Segue Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC168A1E519E6A005A39AC /* Segue Code.swift */; };
 		1DDC168D1E519EE1005A39AC /* Button Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC168C1E519EE1005A39AC /* Button Code.swift */; };
 		290938861EA9C21400B193FB /* DrawLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290938851EA9C21400B193FB /* DrawLine.swift */; };
+		294E51321F0B7FC70002D44B /* Get Key From Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294E51311F0B7FC70002D44B /* Get Key From Plist.swift */; };
 		296DF5501EF5DC2E00D5874D /* Model Example 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF54F1EF5DC2E00D5874D /* Model Example 1.swift */; };
 		296DF5521EF5DC7A00D5874D /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF5511EF5DC7A00D5874D /* NetworkUtility.swift */; };
 		29A911FA1EA82ECD003FFB3A /* Guard vs If Let.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A911F91EA82ECD003FFB3A /* Guard vs If Let.swift */; };
+		29C374791F15DB4600485147 /* Merge Branch to Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C374781F15DB4600485147 /* Merge Branch to Master.swift */; };
+		29C3747B1F15DBF000485147 /* Delete Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3747A1F15DBF000485147 /* Delete Branch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +40,12 @@
 		1DDC168A1E519E6A005A39AC /* Segue Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Segue Code.swift"; sourceTree = "<group>"; };
 		1DDC168C1E519EE1005A39AC /* Button Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button Code.swift"; sourceTree = "<group>"; };
 		290938851EA9C21400B193FB /* DrawLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLine.swift; sourceTree = "<group>"; };
+		294E51311F0B7FC70002D44B /* Get Key From Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Get Key From Plist.swift"; sourceTree = "<group>"; };
 		296DF54F1EF5DC2E00D5874D /* Model Example 1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model Example 1.swift"; sourceTree = "<group>"; };
 		296DF5511EF5DC7A00D5874D /* NetworkUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
 		29A911F91EA82ECD003FFB3A /* Guard vs If Let.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Guard vs If Let.swift"; sourceTree = "<group>"; };
+		29C374781F15DB4600485147 /* Merge Branch to Master.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Branch to Master.swift"; sourceTree = "<group>"; };
+		29C3747A1F15DBF000485147 /* Delete Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Delete Branch.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		1DDC16711E519C20005A39AC /* MyCodeLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				29C374771F15DB3300485147 /* Github */,
 				1DDC16841E519C2C005A39AC /* Code Groups */,
 				1DDC16851E519C3D005A39AC /* Everything Else */,
 			);
@@ -91,6 +98,7 @@
 				290938851EA9C21400B193FB /* DrawLine.swift */,
 				296DF54F1EF5DC2E00D5874D /* Model Example 1.swift */,
 				296DF5511EF5DC7A00D5874D /* NetworkUtility.swift */,
+				294E51311F0B7FC70002D44B /* Get Key From Plist.swift */,
 			);
 			name = "Code Groups";
 			sourceTree = "<group>";
@@ -105,6 +113,15 @@
 				1DDC167E1E519C20005A39AC /* Info.plist */,
 			);
 			name = "Everything Else";
+			sourceTree = "<group>";
+		};
+		29C374771F15DB3300485147 /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				29C374781F15DB4600485147 /* Merge Branch to Master.swift */,
+				29C3747A1F15DBF000485147 /* Delete Branch.swift */,
+			);
+			name = Github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,10 +202,13 @@
 				29A911FA1EA82ECD003FFB3A /* Guard vs If Let.swift in Sources */,
 				1DDC168D1E519EE1005A39AC /* Button Code.swift in Sources */,
 				1DDC16891E519DF0005A39AC /* TextField Code.swift in Sources */,
+				294E51321F0B7FC70002D44B /* Get Key From Plist.swift in Sources */,
 				1D91EB1F1EA48A0C003A013C /* String Code.swift in Sources */,
 				1D3005B21EA5F4380077AD17 /* Functions.swift in Sources */,
 				1DDC16731E519C20005A39AC /* AppDelegate.swift in Sources */,
 				296DF5521EF5DC7A00D5874D /* NetworkUtility.swift in Sources */,
+				29C3747B1F15DBF000485147 /* Delete Branch.swift in Sources */,
+				29C374791F15DB4600485147 /* Merge Branch to Master.swift in Sources */,
 				1DDC16871E519C6C005A39AC /* NavBar Code.swift in Sources */,
 				290938861EA9C21400B193FB /* DrawLine.swift in Sources */,
 				1DDC168B1E519E6A005A39AC /* Segue Code.swift in Sources */,
