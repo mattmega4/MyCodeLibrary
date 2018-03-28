@@ -24,6 +24,7 @@
 		29A911FA1EA82ECD003FFB3A /* Guard vs If Let.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A911F91EA82ECD003FFB3A /* Guard vs If Let.swift */; };
 		29C374791F15DB4600485147 /* Merge Branch to Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C374781F15DB4600485147 /* Merge Branch to Master.swift */; };
 		29C3747B1F15DBF000485147 /* Delete Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3747A1F15DBF000485147 /* Delete Branch.swift */; };
+		29D040742057436300C82FA9 /* Remove Commit from Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D040732057436300C82FA9 /* Remove Commit from Repo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		29A911F91EA82ECD003FFB3A /* Guard vs If Let.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Guard vs If Let.swift"; sourceTree = "<group>"; };
 		29C374781F15DB4600485147 /* Merge Branch to Master.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Branch to Master.swift"; sourceTree = "<group>"; };
 		29C3747A1F15DBF000485147 /* Delete Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Delete Branch.swift"; sourceTree = "<group>"; };
+		29D040732057436300C82FA9 /* Remove Commit from Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Commit from Repo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				29C374781F15DB4600485147 /* Merge Branch to Master.swift */,
 				29C3747A1F15DBF000485147 /* Delete Branch.swift */,
+				29D040732057436300C82FA9 /* Remove Commit from Repo.swift */,
 			);
 			name = Github;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				296DF5501EF5DC2E00D5874D /* Model Example 1.swift in Sources */,
+				29D040742057436300C82FA9 /* Remove Commit from Repo.swift in Sources */,
 				29A911FA1EA82ECD003FFB3A /* Guard vs If Let.swift in Sources */,
 				1DDC168D1E519EE1005A39AC /* Button Code.swift in Sources */,
 				1DDC16891E519DF0005A39AC /* TextField Code.swift in Sources */,
